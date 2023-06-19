@@ -44,3 +44,4 @@ console.log(isAnaGram(s, t)); // Output: true
 const s2 = "rat";
 const t2 = "car";
 console.log(isAnaGramUsingMap(s2, t2)); // Output: false
+
