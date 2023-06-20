@@ -1,6 +1,6 @@
 // Brute Force
-//
-//
+// Time Complexity  O(n^2 * k)
+//space Compexity O(n)
 var isAnaGram = function (s,t){
     if(s.length!=t.length) return false;
     const sortedS = s.split('').sort().join('');
