@@ -1,3 +1,5 @@
+// Takes more space 
+// space complexity O(n)
 var trapByBruteForce = function(height) {
     let totalWater = 0;
     const n = height.length;

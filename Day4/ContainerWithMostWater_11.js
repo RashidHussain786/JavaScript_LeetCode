@@ -1,3 +1,5 @@
+//Time Complexity O(n^2)
+
 var maxAreaByBruteForce =function(height){
     let maxarea=0;
     for(let i=0;i<height.length;i++){
@@ -12,6 +14,7 @@ var maxAreaByBruteForce =function(height){
     return maxarea;
 }
 
+// Time Complexity O(n)
 var maxArea = function(height) {
     let maxarea=0;
     let left_pointer=0;
