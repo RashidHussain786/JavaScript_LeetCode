@@ -1,5 +1,6 @@
 //  we can also use map in place of for 
 // cars.map((pos,index)=>{position:pos,timeToReach: (target-pos)/speed[index]})
+// we can also use stack in place of maxTime and there logic
 
 //Time Complexity O(n log n)
 //Space Complexity O(n)
